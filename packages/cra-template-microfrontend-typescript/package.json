@@ -1,0 +1,27 @@
+{
+  "name": "cra-template-microfrontend-typescript",
+  "version": "0.0.4",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript"
+  ],
+  "description": "The base TypeScript template for Micro-Frontend App",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabrielcerutti/create-react-app.git",
+    "directory": "packages/cra-template-microfrontend-typescript"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "bugs": {
+    "url": "https://github.com/gabrielcerutti/create-react-app/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}

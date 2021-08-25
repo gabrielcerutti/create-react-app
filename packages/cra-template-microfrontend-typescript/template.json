@@ -1,0 +1,35 @@
+{
+  "package": {
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^11.1.0",
+      "@testing-library/user-event": "^12.1.10",
+      "@types/node": "^12.0.0",
+      "@types/react": "^17.0.0",
+      "@types/react-dom": "^17.0.0",
+      "@types/jest": "^26.0.15",
+      "typescript": "^4.1.6",
+      "web-vitals": "^1.0.1",
+	    "history": "^5.0.1",
+	    "react-app-rewired": "^2.1.8",
+	    "react-router": "^6.0.0-beta.1",
+	    "react-router-dom": "^6.0.0-beta.1"
+    },
+	  "scripts": {
+	    "start:micro": "set PORT=4000 && react-app-rewired start",
+      "format": "prettier --write src/**/*.ts src/**/*.tsx",
+      "lint": "eslint src/**/*.ts src/**/*.tsx"
+    },
+    "devDependencies": {
+	    "@types/react": "^17.0.18",
+	    "eslint-config-prettier": "8.3.0",
+	    "eslint-plugin-jest": "^24.4.0",
+	    "eslint-plugin-prettier": "^3.4.1",
+	    "eslint-plugin-react": "^7.24.0",
+	    "prettier": "2.3.2"
+	  },
+    "eslintConfig": {
+      "extends": ["react-app", "react-app/jest"]
+    }
+  }
+}
