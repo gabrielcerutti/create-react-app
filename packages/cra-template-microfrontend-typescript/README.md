@@ -2,7 +2,7 @@
 
 This is the Micro-Frontend TypeScript template for [Create React App](https://github.com/facebook/create-react-app).
 
-It's using [React App Rewired](https://www.npmjs.com/package/react-app-rewired) and [React Router](https://reactrouter.com/) to create a very simple and lightweight Micro-Frontend app to be loaded from a [Container App](https://github.com/gabrielcerutti/main-spa).
+It's using [React App Rewired](https://www.npmjs.com/package/react-app-rewired) and [React Router](https://reactrouter.com/) (with nested routes) to create a very simple and lightweight Micro-Frontend app to be loaded from a [Container App](https://github.com/gabrielcerutti/main-spa).
 
 To use this template, add `--template microfrontend-typescript` when creating a new app.
 
