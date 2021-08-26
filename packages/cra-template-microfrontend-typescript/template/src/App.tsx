@@ -12,7 +12,7 @@ function App(props: { basePath: string; host: string }) {
     basePath = `${props.host}`;
   }
   return (
-    <div className="App">
+    <div className="Micro-App">
       <Routes basename={props.basePath}>
         <Route path="/" element={<HomePage basePath={basePath}></HomePage>} />
         <Route path="pageone" element={<PageOne basePath={basePath}></PageOne>} />

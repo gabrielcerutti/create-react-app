@@ -4,7 +4,7 @@ import '../App.css';
 
 const PageTwo = (props: { basePath: string | undefined }) => {
   return (
-    <div className="App">
+    <div>
       <header className="App-header App-header-pagetwo">
         <nav>
           <ul className="App-nav">

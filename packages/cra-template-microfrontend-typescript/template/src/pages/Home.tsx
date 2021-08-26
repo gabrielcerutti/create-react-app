@@ -4,7 +4,7 @@ import '../App.css';
 
 const HomePage = (props: { basePath: string | undefined }) => {
   return (
-    <div className="App">
+    <div>
       <header className="App-header">
         <div>
           <h1>Congrats! This is your brand new Micro-Frontend!</h1>

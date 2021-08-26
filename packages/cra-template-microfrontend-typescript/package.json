@@ -1,12 +1,17 @@
 {
   "name": "cra-template-microfrontend-typescript",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "keywords": [
     "react",
     "create-react-app",
     "template",
     "typescript",
-    "micro-frontend"
+    "micro-frontend",
+    "micro-frontends",
+    "micro frontend",
+    "micro frontends",
+    "microfrontend",
+    "microservice"
   ],
   "description": "The base TypeScript template for Micro-Frontend Apps",
   "repository": {
