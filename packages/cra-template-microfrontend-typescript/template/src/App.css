@@ -43,13 +43,13 @@
 }
 
 .Micro-App .App-link {
-  color: #61dafb;
+  color: #f5b348;
 }
 
 .Micro-App .App-nav {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
 }
 
 .Micro-App .App-header nav li {

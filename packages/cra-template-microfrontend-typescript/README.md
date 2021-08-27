@@ -44,10 +44,10 @@ yarn create react-app my-app --template microfrontend-typescript
 
 ## Run the microfrontend
 
-Development mode (localhost:3000 by default). This is like a regular react app.
+Development mode (localhost:3000 by default). This is the regular react script command.
 
 ```sh
-npm run start
+npm start
 ```
 
 Microfrontend mode (localhost:4000 by default). Use this mode to load the app into the Container App.
