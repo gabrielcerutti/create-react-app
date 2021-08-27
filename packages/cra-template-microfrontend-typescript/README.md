@@ -22,6 +22,12 @@ In order to integrate a micro-frontend, some changes must be done in the react a
 - **render:** this function will call _ReactDOM.render_ to render the root app component.
 - **unMount:** this function will call _ReactDOM.unmountComponentAtNode_ to unmount the root app component and perform any needed cleanup.
 
+This is already setup in the template (take a look to the microfrontend.tsx file). You just have to run the following command to load the app in microfrontend mode.
+
+```sh
+npm run start:micro
+```
+
 ## Usage
 
 To use this template, add `--template microfrontend-typescript` when creating a new app.
@@ -34,6 +40,20 @@ npx create-react-app my-app --template microfrontend-typescript
 # or
 
 yarn create react-app my-app --template microfrontend-typescript
+```
+
+## Run the microfrontend
+
+Development mode (localhost:3000 by default). This is like a regular react app.
+
+```sh
+npm run start
+```
+
+Microfrontend mode (localhost:4000 by default). Use this mode to load the app into the Container App.
+
+```sh
+npm run start:micro
 ```
 
 For more information, please refer to:
