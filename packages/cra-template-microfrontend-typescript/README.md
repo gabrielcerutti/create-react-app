@@ -16,7 +16,7 @@ _Image credit to [Jennifer Fu](https://jenniferfubook.medium.com/). Check out th
 
 > **Note:** In the micro-frontend architecture, globals have to be carefully controlled. Globals doesn’t only refer to variables or state, but it can also include things such as window/document event handlers, persistent network connections, anything that can be actively running despite the app no longer being in the DOM. It can be incredibly easy to forget that these things can leak, and that they require proper tear downs.
 
-> So, pay special attention to the global nature of the web, all the script and styles are attached to the same DOM, you could face issues if this is not handled properly. For example, in order to avoid collisions in styles it's recommended to use [_sass_](https://create-react-app.dev/docs/adding-a-sass-stylesheet/) (with a root element) or some _css-in-js_ approach ([material-ui](https://material-ui.com/) or [styled components](https://styled-components.com/)). This is out of the scope and you can use whatever you find better for your project.
+> So, pay special attention to the global nature of the web, all the script and styles are attached to the same DOM, you could face issues if this is not handled properly. For example, in order to avoid collisions in styles it's recommended to use [_sass_](https://create-react-app.dev/docs/adding-a-sass-stylesheet/) (with a root container element) or some _css-in-js_ approach ([material-ui](https://material-ui.com/) or [styled components](https://styled-components.com/)). This is out of the scope and you can use whatever you find better for your project.
 
 ## Mechanism 
 
