@@ -57,7 +57,7 @@ Here you can setup some options like:
 - To generate an **optimized** or **not optimized** build with the property _config.optimization.runtimeChunk and config.optimization.splitChunks_.
 - The **Id** and **build mode** of the micro-frontend with the property _config.output.library and config.output.libraryTarget_ (needed in the Container App). If you don't want to use this mode, you have to expose specific named functions in the _microfrontend.tsx_ file instead of generic ones to be called from the Container App, for example _renderYourNewMicrofrontend(...)_ instead of just _render(...)_. Then, of course, you have to setup the Container App accordingly to load the micro-frontend depending on what is the chosen mode here.
 
-> **Note:** You could even not use React App Rewired if you don't need to override the default configuration.
+> **Note:** You don't have to use React App Rewired if you don't need or don't want to override the default configuration. Of course, there are advantages and disadvantages on doing that. Check out the commented code in the _index.tsx_ file for more info.
 
 ## Usage
 

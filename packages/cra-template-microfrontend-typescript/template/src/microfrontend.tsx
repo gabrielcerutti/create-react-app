@@ -4,13 +4,20 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import { eventsToDispatch } from './events';
 
-export const render = (containerId: string, history: any, data: any) => {
+export interface MicrofrontendOptions {
+  basePath: string;
+  host: string;
+  history: any;
+  data: any;
+}
+
+export const render = (containerId: string, options: MicrofrontendOptions) => {
   const container = document.getElementById(containerId);
   if (!container) return;
   ReactDOM.render(
     <React.StrictMode>
       <BrowserRouter>
-        <App {...data} />
+        <App basePath={options.basePath} host={options.host} {...options.data} />
       </BrowserRouter>
     </React.StrictMode>,
     container
