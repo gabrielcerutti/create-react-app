@@ -14,7 +14,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you don't want to use react-app-rewired to change the entry point of the app, 
+// If you don't want to use react-app-rewired to change the entry point of the app,
 // you can uncomment the code below to add global functions to be able to load the
 // micro-frontend from the Container App.
 // Check out the repo https://github.com/gabrielcerutti/micro-frontend-y for implementation details.

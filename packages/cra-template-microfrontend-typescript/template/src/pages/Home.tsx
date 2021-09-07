@@ -12,12 +12,12 @@ const HomePage = (props: { basePath: string | undefined }) => {
         <nav>
           <ul className="App-nav">
             <li>
-              <NavLink className="App-link" to="/pageone">
+              <NavLink className="App-link" to="/page-one">
                 Page One
               </NavLink>
             </li>
             <li>
-              <NavLink className="App-link" to="/pagetwo">
+              <NavLink className="App-link" to="/page-two">
                 Page Two
               </NavLink>
             </li>
@@ -29,7 +29,7 @@ const HomePage = (props: { basePath: string | undefined }) => {
           alt="logo"
         />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Edit <code>src/pages/Home.tsx</code> and save to reload.
         </p>
         <a
           className="App-link"
