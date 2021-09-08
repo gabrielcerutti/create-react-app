@@ -21,6 +21,11 @@ const HomePage = (props: { basePath: string | undefined }) => {
                 Page Two
               </NavLink>
             </li>
+            <li>
+              <NavLink className="App-link" to="/this-page-does-not-exist">
+                Not Found
+              </NavLink>
+            </li>
           </ul>
         </nav>
         <img
