@@ -26,19 +26,13 @@ set -x
 cd ..
 root_path=$PWD
 
-if [ -z $CI ]; then
-  yarn compile:lockfile
-fi
-
 if [ -n "$(git status --porcelain)" ]; then
   echo "Your git status is not clean. Aborting.";
   exit 1;
 fi
 
 # Compile
-cd packages/react-error-overlay/
-npm run build:prod
-cd ../..
+npm run build:prod -w react-error-overlay
 
 # Get 2FA when not CI
 otp=""

@@ -41,7 +41,7 @@ To create a new app, you may choose one of the following methods:
 ### npx
 
 ```sh
-npx create-react-app my-app
+npx create-react-app@latest my-app
 ```
 
 _([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) comes with npm 5.2+ and higher, see [instructions for older npm versions](https://gist.github.com/gaearon/4064d3c23a77c74a3614c498a8bb1c5f))_
@@ -90,10 +90,13 @@ If you already have a project and would like to add TypeScript, see our [Adding 
 
 ### Selecting a package manager
 
-When you create a new app, the CLI will use [Yarn](https://yarnpkg.com/) to install dependencies (when available). If you have Yarn installed, but would prefer to use npm, you can append `--use-npm` to the creation command. For example:
+When you create a new app, the CLI will use [npm](https://docs.npmjs.com) or [Yarn](https://yarnpkg.com/) to install dependencies, depending on which tool you use to run `create-react-app`. For example:
 
 ```sh
-npx create-react-app my-app --use-npm
+# Run this to use npm
+npx create-react-app my-app
+# Or run this to use yarn
+yarn create react-app my-app
 ```
 
 ## Output
